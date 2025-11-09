@@ -1,0 +1,36 @@
+.form {
+  margin-bottom: 20px;
+}
+
+.textInput {
+  padding: 8px;
+  width: 250px;
+}
+
+.button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.textContainer {
+  position: relative;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s;
+}
+
+.letter.selected {
+  color: #fff;
+  background-color: #0078ff;
+  border-radius: 3px;
+}
+
+.dragging {
+  z-index: 1000;
+}
